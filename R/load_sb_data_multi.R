@@ -11,7 +11,7 @@
 require(dplyr)
 require(tidyr)
 
-# load_sb_data function
+# load_sb_data_multi function
 load_sb_data_multi <- function(path = getwd()){
 
   # Load and combine all files in this directory

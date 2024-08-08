@@ -11,7 +11,7 @@
 require(dplyr)
 require(tidyr)
 
-# load_sb_data function
+# score_sb_data function
 score_sb_data <- function(file){
 
   # Remove practice trial
