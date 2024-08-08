@@ -10,6 +10,7 @@
 # Required packages
 require(dplyr)
 require(tidyr)
+require(stringr)
 
 # score_sb_data function
 score_sb_data <- function(file){
