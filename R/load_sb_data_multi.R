@@ -4,7 +4,7 @@
 #' @param path The path to the location of the Gorilla files as a string. If unspecified, will search in current directory.
 #' @return The combined and organized data file
 #' @examples
-#' sb_consolidated_data <- load_sb_data(path = "/Users/drewjmclaughlin/Sandwich_Builder/Data/", filename = "data_exp_181483-v11_task-5loo.csv");
+#' sb_consolidated_data <- load_sb_data_multi(path = "/Users/drewjmclaughlin/Sandwich_Builder/Data/");
 #' @export
 
 # Required packages
