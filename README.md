@@ -15,3 +15,23 @@ library(devtools)
 remotes::install_github("mclaughlindrew/orderup")
 ``` 
 
+# Two Steps
+
+``` r
+#### STEP 1: Load your "raw" Gorilla files ####
+
+# Option 1: Load a specific, single file
+sb_consolidated_data <- load_sb_data(path = "/Users/drewjmclaughlin/SB",
+                                     filename = "data_exp_181483-v11_task-5loo.csv")
+
+# Option 2: Load an entire folder of files
+# (for example, when you have two files from different "versions" of a Gorilla experiment)
+sb_consolidated_data <- load_sb_data_multi(path = "/Users/drewjmclaughlin/SB")
+
+
+#### STEP 2: Score your Sandwich Builder data ####
+
+# This function calculates base and partial credit and sums them into a single final score
+sb_scored_data <- score_sb_data(file = sb_consolidated_data)
+
+```
