@@ -17,7 +17,7 @@ library(Rmisc)
 library(stringr)
 
 
-#### STEP 1: Loading your "raw" Gorilla files ####
+#### STEP 1: Load your "raw" Gorilla files ####
 
 # Option 1: Load a specific, single file
 sb_consolidated_data <- load_sb_data(path = "/Users/drewjmclaughlin/Dropbox/2022_BCBL/Projects/Sandwich_Builder/Data/Session1/SB",
