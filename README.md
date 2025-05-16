@@ -1,6 +1,6 @@
 # orderup
 
-A mini R package to support Sandwich Builder data processing. See "Lettuce Entertain You" (McLaughlin & Samuel, under review) for more details.
+A mini R package to support Sandwich Builder data processing. See "Lettuce Entertain You" (McLaughlin & Samuel, in press) for more details.
 
 <p align="center"><img src="https://github.com/mclaughlindrew/orderup/blob/master/SB_icon.png" height="200px" width="200px" />
 
